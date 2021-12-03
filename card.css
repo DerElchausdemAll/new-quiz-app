@@ -1,0 +1,91 @@
+/**
+ * Minimal Reset
+ */
+
+body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  background: #e5e5e5;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+}
+
+.card {
+  padding: 16px;
+  font-size: 14px;
+  line-height: 20px;
+  background: #fff;
+  color: #202020;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.05);
+  border-radius: 16px;
+}
+
+.card__headline {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: #202020;
+}
+
+.card__image {
+  width: 128px;
+  height: 128px;
+  border-radius: 8px;
+}
+
+.link {
+  font-size: 12px;
+  line-height: 14px;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.link--light {
+  color: #6f6f6f;
+}
+
+.icon-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  font-size: 24px;
+  margin: 0 0 -12px -12px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: none;
+  color: #00a2f5;
+}
+
+.icon-button:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.icon-button:active {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.icon-button__icon {
+  height: 1em;
+  width: 1em;
+}

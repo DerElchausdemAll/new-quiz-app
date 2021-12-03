@@ -1,6 +1,6 @@
 :root {
   --background-color: hsl(0, 59%, 56%);
-  --color: white;
+  --color: rgb(5, 1, 1);
 }
 
 * {
@@ -15,7 +15,7 @@ html {
 }
 
 body {
-  margin: 1%;
+  margin: 3%;
 }
 
 .green-text {
@@ -84,6 +84,7 @@ nav li {
 
 footer {
   text-align: center;
+  color: black;
 }
 
 .setcard {
