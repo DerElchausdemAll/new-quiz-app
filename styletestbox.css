@@ -1,0 +1,20 @@
+:root {
+  --background-color: hsl(0, 59%, 56%);
+  --color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--background-color);
+  color: var(--color);
+}
+
+.wholebox {
+  display: flex;
+  color: white;
+  font-family: monospace;
+  border: 5px solid;
+  font-size: 30px;
+  flex-direction: center;
+  height: 50px;
+}
