@@ -1,0 +1,160 @@
+/* Quiz card */
+
+.quizCard {
+	background: rgb(48, 45, 48);
+	border: 1px solid rgb(253, 253, 253);
+	border-radius: 22px;
+	color: var(--white);
+
+	/* Layout */
+	position: relative;
+	padding: 2em;
+	margin: 0 2.5em;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 10px 5px 5px black;}
+
+/* Bookmark */
+
+.quizCard__bookmarkIcon {
+	position: absolute;
+	right: 20px;
+	top: -15px;
+	color: white;
+}
+
+_.quizCard__bookmarkIcon--bookmarked {
+	position: absolute;
+	right: 20px;
+	top: -15px;
+	color: white;
+}
+
+.quizCard__bookmarkIcon__checked {
+	color: #5af11f;
+}
+
+/* .quizCard__bookmarkIcon--not-bookmarked {
+	color: white;
+	/* stroke: #000;
+	stroke-width: 1px; 
+}
+*/ 
+
+
+/* Header */
+
+.quizCard__header {
+	/* Typography */
+	font-size: 1.25rem;
+	text-transform: uppercase;
+	/* color: blue; */
+
+	/* Layout */
+	margin-bottom: 0.25em;
+}
+
+/* Question-field */
+
+.quizCard__questionField {
+	/* Typography */
+	font-size: 1rem;
+	/* color: red; */
+
+	/* Layout */
+	padding: 0 0.75em;
+	/* margin-bottom: 0.25em; */
+}
+
+/* Button */
+
+.quizCard__answerButton {
+	/* Layout */
+	margin: 0.9em 0;
+	display: flex;
+	justify-content: center;
+	
+}
+
+
+
+.answerButton {
+	background-color: #5af11f;
+	color: #000;
+	transition: transform .2s;
+	border: white solid 1px;
+	margin: 0.9em 0;
+	display: flex;
+	justify-content: center;
+	/* Typography */
+		text-align: center;
+		font-size: 0.9rem;
+		text-transform: uppercase;
+	
+	/* Layout */
+		border: white solid 1px;
+		padding: 0.7em 1.5em;
+		text-decoration: none;
+		border-radius: 10px;
+		box-shadow: 10px 5px 5px black;
+}
+
+
+.quizCard__answer {
+		/* Typography */
+		font-size: 1rem;
+		/* color: green; */
+		display: none;
+		/* Layout */
+		padding: 0 0.75em;
+		margin-bottom: 0.25em;
+}
+
+.answerButton--show {
+	display: unset;
+	background: rgb(48, 45, 48);
+}
+
+.color--Answer {
+	background: rgb(240, 26, 204);
+}
+
+
+
+/* Tags */
+
+.quizCard__tags {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 0.25em;
+	padding: 0;
+	
+}
+
+.tag {
+	padding: 0;
+	margin: 0;
+	box-shadow: 10px 5px 5px black;
+}
+
+.tag__type {
+	font-size: 0.9em;
+	padding: 0.3em 0.6em;
+	border: 1px solid #000;
+	border-radius: 5px;
+	margin: 0;
+}
+
+.tag__type--theory {
+	background: black;
+}
+
+.tag__type--scales {
+	background: black;
+}
+.tag__type--notes {
+	background: black;
+}
+
+.tag__type--intermediate {
+	background: black;

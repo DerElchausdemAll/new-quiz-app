@@ -1,0 +1,39 @@
+/**
+ * Minimal Reset
+ */
+body {
+	margin: 0;
+	font-size: 16px;
+	color: white;
+
+	background: linear-gradient(to bottom right, black, #084730dc, #00ffa259, #084730dc, black);
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	/* border: 1px solid magenta; */
+}
+
+h1,
+.h1 {
+	font-size: 2rem;
+	font-weight: bold;
+	margin: 1em 0;
+}
+
+h2,
+.h2 {
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin: 1em 0;
+}
+
+.subtitle {
+	font-size: 1.25rem;
+}
+
+.card-wrapper {
+	padding: 5em 0 5em 0;
+}

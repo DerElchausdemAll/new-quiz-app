@@ -1,0 +1,29 @@
+header {
+	background: black;
+
+	position: fixed;
+	width: 100vw;
+	z-index: 1;
+}
+
+.logo {
+	display: flex;
+	justify-content: start;
+	padding-left: 20px;
+	transition: transform 0.2s;
+}
+
+.logo__heading {
+	font-size: 1.75em;
+	margin: 0.5em 0;
+}
+
+h1 {
+	color: #5af11f;
+	transition: transform 0.2s;
+}
+
+h1:hover {
+	color: #5af11f;
+	transform: scale(1.2);
+}

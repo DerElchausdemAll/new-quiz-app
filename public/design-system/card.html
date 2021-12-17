@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Quiz-App</title>
+		<link rel="icon" href="/favicon.ico" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Mohave:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+			rel="stylesheet"
+		/>
+		<meta name="description" content="My HTML App" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="/public/styles.css" />
+		<link rel="stylesheet" href="/public/card.css" />
+	</head>
+	<body>
+		<header>
+			<div class="logo">
+				<h1 class="h2">Quiz-App</h1>
+			</div>
+		</header>
+		<main>
+			<div class="card-wrapper">
+				<div class="quizCard">
+					<div class="quizCard__bookmarkIcon">
+						<svg
+							class="quizCard__bookmarkIcon--bookmarked"
+							style="width: 45px; height: 45px"
+							viewBox="0 0 24 24"
+						>
+							<path
+								fill="currentColor"
+								d="M17,3H7A2,2 0 0,0 5,5V21L12,18L19,21V5C19,3.89 18.1,3 17,3Z"
+							/>
+						</svg>
+					</div>
+					<div class="quizCard__header">Question:</div>
+					<div class="quizCard__questionField">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, maiores.
+					</div>
+					<div class="quizCard__answerButton">
+						<button class="answerButton answerButton--hide">Hide Answer</button>
+					</div>
+					<div class="quizCard__answerField">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum alias laborum
+						tempore corporis ipsam. Labore.
+					</div>
+					<div class="quizCard__tags">
+						<div class="tag">
+							<p class="tag__type tag__type--theory">Theory</p>
+						</div>
+						<div class="tag">
+							<p class="tag__type tag__type--scales">Scales</p>
+						</div>
+						<div class="tag">
+							<p class="tag__type tag__type--notes">Notes</p>
+						</div>
+						<div class="tag">
+							<p class="tag__type tag__type--intermediate">Intermediate</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="quizCard">
+					<div class="quizCard__bookmarkIcon">
+						<svg style="width: 45px; height: 45px" viewBox="0 0 24 24">
+							<path
+								fill="currentColor"
+								d="M17,18L12,15.82L7,18V5H17M17,3H7A2,2 0 0,0 5,5V21L12,18L19,21V5C19,3.89 18.1,3 17,3Z"
+							/>
+						</svg>
+					</div>
+					<div class="quizCard__header">Question:</div>
+					<div class="quizCard__questionField">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt quas
+						inventore ducimus!
+					</div>
+					<div class="quizCard__answerButton">
+						<button class="answerButton">Show Answer</button>
+					</div>
+					<!-- <div class="quizCard__answerField">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea doloremque
+						corrupti ipsum pariatur adipisci inventore veniam voluptatum quia doloribus
+						iure molestiae aspernatur, vero fugiat quo sunt reprehenderit ad magni
+						rerum!
+					</div> -->
+					<div class="quizCard__tags">
+						<div class="tag">
+							<p class="tag__type tag__type--theory">Theory</p>
+						</div>
+						<div class="tag">
+							<p class="tag__type tag__type--scales">Scales</p>
+						</div>
+						<div class="tag">
+							<p class="tag__type tag__type--notes">Notes</p>
+						</div>
+						<div class="tag">
+							<p class="tag__type tag__type--intermediate">Intermediate</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<nav>
+				<ul class="appMenu">
+					<li><a class="appMenu__home" href="#">Home</a></li>
+					<li><a class="appMenu__bookmark" href="#">Bookmark</a></li>
+					<li><a class="appMenu__random" href="#">Random</a></li>
+					<li><a class="appMenu__profile" href="#">Profile</a></li>
+				</ul>
+			</nav>
+		</footer>
+	</body>
+</html>

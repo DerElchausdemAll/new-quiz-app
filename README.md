@@ -1,2 +1,1 @@
-# personal-webpage
-My personal homepage
+# quizz-app
