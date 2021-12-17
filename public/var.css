@@ -1,8 +1,8 @@
 @import url(./color-palette.css);
 :root {
-	--background: var(--backgroundfade);
-	--green: var(--secondary);
-	--black: var(--black);
-	--white: var(--white);
-	--grey: var(--third);
+  --background: var(--backgroundfade);
+  --green: var(--secondary);
+  --black: var(--black);
+  --white: var(--white);
+  --grey: var(--third);
 }

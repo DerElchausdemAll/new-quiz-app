@@ -48,15 +48,22 @@ _.quizCard__bookmarkIcon--bookmarked {
 }
 
 .quizCard__bookmarkIcon__checked {
-	color: rgb(247, 64, 237);
+	color: #5af11f;
+	transform: translateY(-12px);
+	/* animation: setbookmark 0.7s; */
 }
 
-/* .quizCard__bookmarkIcon--not-bookmarked {
-	color: white;
-	/* stroke: #000;
-	stroke-width: 1px; 
-}
-*/ 
+/* @keyframes setbookmark {
+	0% {
+		transform: translateY(0px);
+	}
+	50% {
+		transform: translateY(-30px);
+	}
+	100% {
+		transform: translateY(-15px);
+	}
+} */
 
 
 /* Header */
@@ -114,6 +121,7 @@ _.quizCard__bookmarkIcon--bookmarked {
 		text-decoration: none;
 		border-radius: 10px;
 		box-shadow: 10px 5px 5px black;
+		width: 170px;
 }
 
 
@@ -125,6 +133,7 @@ _.quizCard__bookmarkIcon--bookmarked {
 		/* Layout */
 		padding: 0 0.75em;
 		margin-bottom: 0.25em;
+
 }
 
 .answerButton--show {
@@ -133,7 +142,7 @@ _.quizCard__bookmarkIcon--bookmarked {
 }
 
 .color--Answer {
-	background: rgb(247, 64, 237);
+	background: hsl(103, 77%, 33%);
 }
 
 

@@ -1,16 +1,17 @@
 /* Palette color-palette.css */
 
 :root {
-	--green: #5af11f;
-	--backgroundfade: linear-gradient(
-		to bottom right,
-		black,
-		#084730dc,
-		#00ffa259,
-		#084730dc,
-		black
-	);
-	--white: white;
-	--black: black;
-	--grey: rgb(48, 45, 48);
+  --primarycolor: #5af11f;
+  --secondarycolor: rgb(247, 64, 237);
+  --backgroundfade: linear-gradient(
+    to bottom right,
+    black,
+    #084730dc,
+    #00ffa259,
+    #084730dc,
+    black
+  );
+  --white: white;
+  --black: black;
+  --grey: rgb(48, 45, 48);
 }

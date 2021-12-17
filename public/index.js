@@ -36,3 +36,15 @@ cards.forEach((card) => {
     toggleBotton.classList.toggle(colorAnswer);
   });
 });
+
+// select navbar-elements
+
+const icons = document.querySelectorAll(".js-toggleicon");
+
+const switchIcons = "switch--Icons";
+
+icons.forEach((icon) => {
+  icon.addEventListener("click", (ev) => {
+    icon.classList.toggle(switchIcons);
+  });
+});
