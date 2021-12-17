@@ -12,7 +12,24 @@
 	margin: 0 2.5em;
 	display: flex;
 	flex-direction: column;
-	box-shadow: 10px 5px 5px black;}
+	box-shadow: 10px 5px 5px black;
+
+	will-change: opacity, scroll-position;
+	animation: load 0.7s ease-out;
+
+}
+
+
+@keyframes load {
+	0% {
+		transform: translateY(100px);
+		opacity: 0;
+	}
+	100% {
+		transform: translateY(0px);
+		opacity: 1;
+	}
+}
 
 /* Bookmark */
 
@@ -31,7 +48,7 @@ _.quizCard__bookmarkIcon--bookmarked {
 }
 
 .quizCard__bookmarkIcon__checked {
-	color: #5af11f;
+	color: rgb(247, 64, 237);
 }
 
 /* .quizCard__bookmarkIcon--not-bookmarked {
@@ -116,7 +133,7 @@ _.quizCard__bookmarkIcon--bookmarked {
 }
 
 .color--Answer {
-	background: rgb(240, 26, 204);
+	background: rgb(247, 64, 237);
 }
 
 
